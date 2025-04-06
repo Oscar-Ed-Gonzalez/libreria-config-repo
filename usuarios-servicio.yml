@@ -27,3 +27,13 @@ management:
     web:
       exposure:
         include: "*"
+
+  endpoint:
+    health:
+      show-details: always
+
+info:
+  app:
+    name: usuarios-servicio
+    description: Servicio de gestión de usuarios con autenticación JWT
+    version: 1.0.0
